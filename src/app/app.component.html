@@ -8,10 +8,11 @@
 </head>
 <body>
   <h1>Contador App</h1>
+  <h3>La base es: <strong>{{base}}</strong>  </h3>
   
-  <button (click)="acumular(-1)" >--</button>
+  <button (click)="acumular(-base)" >-{{base}}</button>
   <span>{{numero}}</span>
-  <button (click)="acumular(1)" >++</button>
+  <button (click)="acumular(base)" >+{{base}}</button>
   
 
 </body>
