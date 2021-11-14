@@ -7,7 +7,12 @@
   <title>Ejemplo</title>
 </head>
 <body>
-  <h1>Hola mundo!!!</h1>
-  <h2>{{ title }} by David </h2>
+  <h1>Contador App</h1>
+  
+  <button (click)="numero = numero - 1" >--</button>
+  <span>{{numero}}</span>
+  <button (click)="numero = numero + 1" >++</button>
+  
+
 </body>
 </html>
