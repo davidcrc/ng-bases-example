@@ -39,3 +39,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```sh
 ng generate component heroes/listado
 ```
+
+## Tag dis version
+
+```sh
+git tag -a v0.1.0 -m "Fin seccion 4"
+git push --tags
+```
