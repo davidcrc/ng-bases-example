@@ -53,3 +53,9 @@ git push --tags
 ng g module dbz
 ng g c dbz/mainPage --skip-tests
 ```
+
+## Separete in modules
+
+```sh
+ng g c dbz/personajes --skip-tests
+```
