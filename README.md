@@ -46,3 +46,10 @@ ng generate component heroes/listado
 git tag -a v0.1.0 -m "Fin seccion 4"
 git push --tags
 ```
+
+## Create a module dbz
+
+```sh
+ng g module dbz
+ng g c dbz/mainPage --skip-tests
+```
