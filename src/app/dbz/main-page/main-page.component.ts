@@ -8,10 +8,10 @@ import { DbzService } from '../services/dbz.service';
   styleUrls: [],
 })
 export class MainPageComponent {
-  constructor() {}
-
   nuevo: Personaje = {
     nombre: '',
     poder: 0,
   };
+
+  constructor() {}
 }
