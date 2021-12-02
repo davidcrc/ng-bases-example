@@ -59,3 +59,9 @@ ng g c dbz/mainPage --skip-tests
 ```sh
 ng g c dbz/personajes --skip-tests
 ```
+
+## Generate build to production
+
+```sh
+ng build
+```
